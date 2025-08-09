@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: regionvisualizer
+Specification-Vendor: Riburitu
+Specification-Version: 1
+Implementation-Title: MusicZone
+Implementation-Version: 1.0.0
+Implementation-Vendor: Riburitu
+Implementation-Timestamp: 2025-08-09T04:48:43+0200
+

@@ -1,0 +1,34 @@
+# mods.toml
+
+modLoader="javafml"
+loaderVersion="[47,)" # Compatible con Forge 1.20.1 y superior
+license="MIT"
+
+[[mods]]
+modId="musiczone"               # MOD_ID único para tu mod MusicZone
+version="1.0.0"
+displayName="MusicZone"
+authors="Riburitu"
+description='''Mod para reproducción de música personalizada por zonas,
+basado en YAWP para detección de regiones musicales.'''
+
+[[dependencies.musiczone]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.musiczone]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.musiczone]]
+modId="yawp"
+mandatory=true
+versionRange="[0.5.2-beta4,)"
+ordering="NONE"
+side="BOTH"
